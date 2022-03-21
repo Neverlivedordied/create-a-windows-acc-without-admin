@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## creating a account on a windows machine with out admin rights
 
-You can use the [editor on GitHub](https://github.com/Neverlivedordied/create-a-windows-acc-without-admin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<dl>
+  <dt> in this guide you'll create a user account on a windows computer through the use of a terminal</dt>
+ <dd>and all you need is a usb windows on it and a computer with windows 10 installed and of course usb ports on the computer.</dd>
+  <dd> dont worry I am working on a guide on how to put windows on usb drive soon</dd>
+  
+ <d1> 
+<dt> Ever forget your password want to set up a new account without logging in well I've got the way for you </dt>
+   <dd>BTW in this guide we will be using BIOS and UEFI and interchangeable words </dd>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+  STEP 1. RESTART
+<d5>
+  <dt>restart or shutdown the computer. Then plug in the usb in one of the avaible usb ports on your computer. After that turn on the computer and repeatedly hit f12 or delete (these are the most common buttons used to access the BIOS or UEFI.) until the bios shows.</dt>
+  <dd>(picture soon)</dd>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+  STEP 2. BIOS
+<d1>
+  <dt>After you boot up to the BIOS navigate to where you can choose the boot order (often shown as boot priority and on the first page). To change the boot order you either drag the icon (this case should say the usbs name like sandisk) infront of your boot drive (its the farthest to the left drive). While if you have no icons you should be able to click on boot priority or one of the names to change it.</dt>
+  <dd>(picture soon)</dd>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+  STEP 3. SAVING AND WINDOWS STARTUP
+<d1>
+  <dt>Now you want to obvisouly save your changes. After that you can well exit the bios and it should bring you to the windows install. Now dont worry we arent going to install windows were just gonna hit repair windows should be in the bottom left corner of the box.</dt>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Neverlivedordied/create-a-windows-acc-without-admin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  STEP 4. COMMAND AND CONQUER 
+<d1>
+  <dt>You heard that right, time for command prompt. So after you hit repair windows or was it repair this pc  </dt>
+  
